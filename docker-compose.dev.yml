@@ -1,0 +1,7 @@
+version: "3.3"
+
+services:
+  locust:
+    volumes:
+      - ./src:/home/app/src
+      # - ../data:/home/app/data
